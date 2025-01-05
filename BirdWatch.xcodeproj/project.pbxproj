@@ -12,6 +12,7 @@
 		2ED5DDFC2B01FAB200070B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED5DDFB2B01FAB200070B8B /* ContentView.swift */; };
 		2ED5DDFE2B01FAB400070B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED5DDFD2B01FAB400070B8B /* Assets.xcassets */; };
 		2ED5DE012B01FAB400070B8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED5DE002B01FAB400070B8B /* Preview Assets.xcassets */; };
+		AB1FDB102D2A2B670033EE3D /* BirdListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FDB0F2D2A2B670033EE3D /* BirdListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2ED5DDFB2B01FAB200070B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2ED5DDFD2B01FAB400070B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ED5DE002B01FAB400070B8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB1FDB0F2D2A2B670033EE3D /* BirdListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2E430B322B01FF5600A0DE45 /* Bird.swift */,
 				2ED5DDF92B01FAB200070B8B /* BirdWatchApp.swift */,
 				2ED5DDFB2B01FAB200070B8B /* ContentView.swift */,
+				AB1FDB0F2D2A2B670033EE3D /* BirdListView.swift */,
 				2ED5DDFD2B01FAB400070B8B /* Assets.xcassets */,
 				2ED5DDFF2B01FAB400070B8B /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED5DDFC2B01FAB200070B8B /* ContentView.swift in Sources */,
+				AB1FDB102D2A2B670033EE3D /* BirdListView.swift in Sources */,
 				2E430B332B01FF5600A0DE45 /* Bird.swift in Sources */,
 				2ED5DDFA2B01FAB200070B8B /* BirdWatchApp.swift in Sources */,
 			);
