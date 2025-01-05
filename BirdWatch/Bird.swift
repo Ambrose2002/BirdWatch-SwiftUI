@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Bird {
+struct Bird: Hashable {
     let name: String
     let location: String
     let image: String
