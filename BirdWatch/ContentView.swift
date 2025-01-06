@@ -9,14 +9,23 @@ import SwiftUI
 struct ContentView: View {
 
     var body: some View {
-        VStack(spacing: 50) {
-            profileView
-
-            viewBirdsButton
+        NavigationStack {
+            VStack(spacing: 50) {
+                profileView
+                
+                NavigationLink {
+                    BirdListView()
+                } label: {
+                    viewBirdsButton
+                }
+                
+                
+            }.navigationTitle("Bird Watch")
         }
     }
 
     private var profileView: some View {
+        
         VStack {
             Image("newbie")
                 .resizable()
